@@ -15,7 +15,7 @@ import { ProductsComponent } from './products/products.component';
 import { ProductDetailsComponent } from './product-details/product-details.component';
 import { CheckoutComponent } from './checkout/checkout.component';
 import { EmployeesComponent } from './employees/employees.component';
-
+import { UsersComponent } from './users/users.component';
 import { MarkdownModule } from 'ngx-markdown';
 
 import 'prismjs';
@@ -36,7 +36,8 @@ import 'prismjs/plugins/line-highlight/prism-line-highlight.js';
     ProductsComponent,
     ProductDetailsComponent,
     CheckoutComponent,
-    EmployeesComponent
+    EmployeesComponent,
+    UsersComponent
   ],
   imports: [
     BrowserModule,
